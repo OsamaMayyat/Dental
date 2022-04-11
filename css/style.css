@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    padding: 0 ;
+    margin: 0 !important;
+}
+nav .bto{
+    background-color: rgba(221, 221, 221, 0.507) !important;
+    color: black !important;
+}
+#home-page{
+    min-height: calc(100vh - 56px);
+    background-image: url(../image/img8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#login-page{
+    position: relative;
+    height: calc(100vh - 56px);
+    background-image: url(../image/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Secretary-page{
+    position: relative;
+    height: calc(100vh - 56px);
+    background-image: url(../image/img6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#medical-page{
+    position: relative;
+    height: calc(100vh - 56px);
+    background-image: url(../image/img6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#medical-page h2{
+    font-size: 35px;
+}
+#Doctors-page{
+    position: relative;
+    height: calc(100vh - 56px);
+    background-image: url(../image/img5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#manager-page{
+    position: relative;
+    height: calc(100vh - 56px);
+    background-image: url(../image/img7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Secretarypage-page{
+    position: relative;
+    height: calc(100vh - 56px);
+    background-image: url(../image/img9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Secretarypage-page .card2{
+    position: relative;
+}
+#Secretarypage-page .card2 i{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 40px;
+    opacity: 0;
+    transition: 0.7s;
+}
+#Secretarypage-page .card2:hover i{
+    opacity: 1;
+
+}
+#payment-page{
+    position: relative;
+    height: calc(100vh - 56px);
+    background-image: url(../image/img10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.message1{
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+    padding: 10px 10px;
+    background-color: rgb(241, 144, 144);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transition: 0.5s;
+}
+.message2{
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+    padding: 10px 0;
+    background-color: rgb(241, 144, 144);
+    display: none;
+}
+
+.home{
+    padding: 20px ;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.7s;
+    padding-top: 80px;
+    
+}
+.home h1{
+    color: green;
+}
+.home .well{
+    font-size: 50px;
+}
+.login{
+    padding: 20px ;
+    text-align: center;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    transition: 0.7s;
+    background-color: rgba(221, 221, 221, 0.589);
+}
+.login:hover{
+    box-shadow: 2px 2px 15px 10px aqua;
+
+}
+
+.page{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 20px;
+    padding-top: 50px;
+}
+.login .onei{
+    font-size: 100px;
+    margin-bottom: 10px !important;
+}
+.login h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px !important;
+}
+.login form .input1{
+    width: 100%;
+    margin-bottom: 10px !important;
+    padding: 7px;
+    padding-left: 25px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    transition: 1s;
+    position: relative;
+}
+
+.login form .input1:focus{
+    outline: none;
+    border-bottom: 2px solid aqua;
+    border-radius: 10px;
+}
+.flx{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flx label{
+    width: 50%;
+}
+.flx .code{
+    width: 20%;
+}
+.login form .input2{
+    width: 50%;
+    margin-bottom: 10px !important;
+    padding: 7px;
+    padding-left: 25px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    transition: 1s;
+    position: relative;
+}
+
+.login form .input2:focus{
+    outline: none;
+    border-bottom: 2px solid aqua;
+    border-radius: 10px;
+}
+.login form .code{
+    margin-bottom: 10px !important;
+    padding: 7px;
+    padding-left: 25px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    transition: 1s;
+    position: relative;
+}
+
+.login form .code:focus{
+    outline: none;
+    border-bottom: 2px solid aqua;
+    border-radius: 10px;
+}
+.login button{
+    width: 100%;
+    padding: 5px;
+    background: transparent;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: aqua;
+
+}
+.login a:hover{
+
+    text-decoration: none;
+}
+
+.login .forget{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login .forget input{
+    margin-right: 5px !important;
+}
+.login .account{
+    margin-top: 10px !important;
+    float: left;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.login .account:hover{
+    color: white;
+    border: 2px solid aqua;
+    background-color: aqua;
+}
+.towi{
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+    color: #ddd;
+    transition: 0.7s;
+}
+.login:hover .towi{
+    color: aqua;
+
+}
+.navaber{
+    background-color: rgb(0, 255, 170) !important;
+}
+.navaber a{
+    color: black !important;
+
+}
+.navaber a:hover{
+    color: white !important;
+
+}
+.color{
+    background-color: rgba(221, 221, 221, 0.397);
+
+}

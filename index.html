@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Clinic</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  bg-light navaber">
+        <a class="navbar-brand" href="index.html">Dental Clinic</a>
+        <button class="navbar-toggler bto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Secretary.html">Secretary<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Doctors.html">Doctors</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="manager.html">Clinic manager</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="login.html">login</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+      <section id="home-page">
+        <div class="row page ">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-7 home">
+                <h1 class="well">Welcome</h1>
+                    
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4 home">
+                <h1>Dental Clinic</h1>
+                <br>
+                <h3>YOUR SMAILE IS <br> IMPORTANT <br> TO US</h3>                  
+                
+            </div>
+        </div>
+            <div class="row page">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 login">
+                <i class="fa-solid fa-paste onei " style="font-size: 40px;"></i>
+                  <h2 style="font-size: 30px;">Reservation</h2>
+                  <form action="">
+                    
+                    <div style="position: relative;" class="flx">
+                      <label for="">Your Name</label>
+                        <input class="input2" type="text"  name="" value="">
+                    </div>
+
+                    <div class="form-group flx">
+                      <label for="exampleFormControlSelect1">The problem</label>
+                      <select class="form-control input2" id="exampleFormControlSelect1">
+                        <option>toothache</option>
+                        <option>soreness in the gums</option>
+                        <option>I can't distinguish</option>
+                      </select>
+                    </div>
+                    <div class="form-group flx">
+                      <label for="exampleFormControlSelect1">Comfortable time for you</label>
+                      <select class="form-control input2" id="exampleFormControlSelect1">
+                        <option>9am</option>
+                        <option>11am</option>
+                        <option>2pm</option>
+                        <option>4pm</option>
+                      </select>
+                    </div>                                         
+                      
+                      <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                          Send
+                        </button>
+  
+                       
+                      
+                      
+                  </form>
+              </div>
+          </div>
+           <!-- Modal -->
+           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Thank you</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  We will make sure to book for you
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      
+
+
+
+
+
+
+
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/main.js"></script>
+</body>
+</html>
